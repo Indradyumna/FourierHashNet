@@ -1,0 +1,4 @@
+dataset:
+  sigmoid_a: -2.07367205619812
+  sigmoid_b: 3.9828364849090576 
+  embed_dim: 294

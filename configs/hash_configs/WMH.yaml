@@ -1,0 +1,9 @@
+hashing:
+    name: 'WMH'
+    classPath: 'lsh.wmh'
+    device: "cpu"
+    FUNC: "wjac"
+    hcode_dim: 64
+    subset_size: 8
+    num_hash_tables: 10
+    wmh_type: "chum"

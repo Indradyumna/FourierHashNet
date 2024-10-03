@@ -1,0 +1,3 @@
+python -m scripts.lsh_scripts.hashing_wmh dataset.name="msweb294_1" dataset.rel_mode="fhash"  hashing.FUNC="wjac" hashing.name="WMH" &
+python -m scripts.lsh_scripts.hashing_wmh dataset.name="msnbc294_3" dataset.rel_mode="fhash"  hashing.FUNC="wjac" hashing.name="WMH" &
+python -m scripts.lsh_scripts.hashing_wmh dataset.name="msnbc294_4" dataset.rel_mode="fhash"  hashing.FUNC="wjac" hashing.name="WMH" &

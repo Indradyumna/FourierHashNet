@@ -1,0 +1,24 @@
+hashing:
+    name: 'RH_Trained'
+    classPath: 'lsh.rh_trained'
+    device: "cpu"
+    FUNC: "cos"
+    hcode_dim: 64
+    subset_size: 8
+    num_hash_tables: 10
+
+
+hashcode_training:
+    model_name: "HashCodeTrainer"
+    classPath: 'lsh.train_hashcode'
+    device: "cuda"
+    LOSS_TYPE: "query_aware"
+    QA_subset_size: 8
+    QA_MARGIN: 1.0
+    FENCE: 0.1
+    DECORR: 0
+    C1: 0
+    hidden_layers: []
+    TANH_TEMP: 1.0
+
+

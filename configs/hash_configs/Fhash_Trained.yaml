@@ -1,0 +1,41 @@
+hashing:
+    name: 'Fhash_Trained'
+    classPath: 'lsh.fhash_trained'
+    device: "cpu"
+    FUNC: "sighinge"
+    hcode_dim: 64
+    subset_size: 8
+    m_use: 10
+    a: -100
+    b: 100
+    T: 3
+    num_hash_tables: 10
+
+
+fmap_training:
+    classPath: 'lsh.train_fmaps'
+    model_name: "AsymFmapTrainer"
+    device: "cuda"
+    tr_fmap_dim: 10
+    tr_fmap_loss: "BCE3"
+    hidden_layers: []
+    margin: 0.05
+    P2N: 1.0
+
+hashcode_training:
+    model_name: "HashCodeTrainer"
+    classPath: 'lsh.train_hashcode'
+    device: "cuda"
+    LOSS_TYPE: "query_aware"
+    QA_subset_size: 8
+    QA_MARGIN: 1.0
+    FENCE: 0.1
+    DECORR: 0
+    C1: 0
+    hidden_layers: []
+    TANH_TEMP: 1.0
+    
+
+
+
+

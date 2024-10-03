@@ -1,0 +1,8 @@
+hashing:
+    name: 'RH'
+    classPath: 'lsh.rh'
+    device: "cpu"
+    FUNC: "cos"
+    hcode_dim: 64
+    subset_size: 8
+    num_hash_tables: 10

@@ -1,0 +1,42 @@
+task:
+  name: ''
+  wandb_project: 'GHASH'
+  wandb_group: 
+log:
+  dir: 'logs'
+
+base_dir: './'
+DEBUG: False
+K: -1
+
+training:
+  batch_size: 128
+  device: 'cuda'
+  dropout: 0
+  learning_rate: 1e-3
+  weight_decay: 5e-4
+  num_epochs: 20000
+  seed: 0
+  run_till_early_stopping: True
+  wandb_watch: False
+  resume: False
+  margin: 1.0
+  patience: 50
+  sinkhorn_temp: 0.1
+  # sinkhorn_noise: 0
+
+dataset:
+  name: 'ptc_mm'
+  rel_mode: 'sub_iso'
+  path: 'data'
+  # feature_type: 'One'
+  data_type: 'gmn'
+
+
+# model:
+
+  
+
+gmn:
+  filters_3: 10
+  GMN_NPROPLAYERS: 5
