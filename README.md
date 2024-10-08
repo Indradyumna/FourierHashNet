@@ -30,3 +30,21 @@ Notes:
  - GPU usage is required for model training
  - Hashing is done only on CPU. 
  - source code files are all in src folder.  
+
+
+Reference
+---------
+
+If you find the code useful, please cite our paper:
+
+	@article{roy2023locality,
+	  title={Locality sensitive hashing in fourier frequency domain for soft set containment search},
+	  author={Roy, Indradyumna and Agarwal, Rishi and Chakrabarti, Soumen and Dasgupta, Anirban and De, Abir},
+	  journal={Advances in Neural Information Processing Systems},
+	  volume={36},
+	  pages={56352--56383},
+	  year={2023}
+	}
+
+Indradyumna Roy, Indian Institute of Technology - Bombay  
+indraroy15@cse.iitb.ac.in
