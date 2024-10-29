@@ -1,6 +1,6 @@
 # FourierHashNet
 
-Locality Sensitive Hashing in Fourier Frequency Domain For Soft Set Containment Search
+[Locality Sensitive Hashing in Fourier Frequency Domain For Soft Set Containment Search (NeurIPS 23, Spotlight)](https://indradyumna.github.io/pdfs/2023_FourierHashNet.pdf)
 
 This directory contains code necessary for running all the experiments.
 
